@@ -6,7 +6,10 @@ const Search = ({onSearchChange}) => {
     const [search, setSearch] = useState(null);
 
     const loadOptions = (inputValue) => {
-        
+        return fetch('/cities', options)
+        .then(response => response.json())
+        .then(response => console.log(response))
+        .catch(err => console.error(err));
     }
 
     const handleOnChange = (searchData) => {
