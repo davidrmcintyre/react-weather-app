@@ -20,3 +20,6 @@ API Integration: the API'S used are mentioned above.
 ## Usage
 
 You can try out the site for yourself [here](https://david-weather-app-react.netlify.app/).
+
+## License
+This project is licensed under the MIT License.
